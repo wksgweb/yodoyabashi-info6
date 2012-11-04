@@ -1,0 +1,93 @@
+@charset "utf-8";
+
+body {
+	background-image: url(../img/back.jpg);
+	line-height: 1.6;
+	font-size: 0.875em;
+	font-family: "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+	font-weight: bold;
+	color:#000000;
+}
+
+a:link {
+	color: #000000;
+	text-decoration: none;
+}
+
+a:visited {
+	color: #738261;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #738261;
+	text-decoration: none;
+}
+
+a:active {
+	color: #738261;
+	text-decoration: none;
+}
+
+/* フロート　クリア */
+.clear {
+	clear: both;
+}
+
+/* ラッパー */
+#wrapper {
+	width: 960px;
+	margin: 0px auto;
+}
+
+/* コンテナ */
+#container {
+	padding: 10px 10px;
+}
+
+
+/* ヘッダー */
+#header {
+
+}
+
+#header .yajirushi {
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+/* ナビゲーション */
+#navi {
+	margin-top: 10px;
+}
+
+/* コンテンツ */
+
+#contents {
+	margin-top: 20px;
+}
+
+#contents li{
+	padding-left: 30px;
+	background: url(../img/line.png) no-repeat 0px -5px;
+	margin-bottom: 20px;
+}
+
+/* フロートクリア */
+#clearfloat {
+	clear: both;
+}
+
+/* フッター */
+#footer {
+	padding: 28px 0 28px 10px;
+	text-align: center;
+}
+
+#footer ul {
+	background-color: ;
+}
+
+#footer li {
+	float: left;
+}
